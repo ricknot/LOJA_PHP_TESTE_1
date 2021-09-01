@@ -1,0 +1,172 @@
+/*ADM*/
+.clear {clear: both;}
+.pg-Container {
+	width: 90%;
+	margin: auto;
+}
+.header-Container{
+	width: 100%;
+	height: 60px;
+	background-color: #104E8B;
+	border-radius: 0px 0px 4px 4px;
+}
+.header-title {
+	color: #363636;
+	font-family: 'Ostrich Sans';
+	font-size: 40px;
+	color: #FFFFFF;
+	float: left;
+	margin: 8px;
+}
+.header-Stitle {
+	color: #363636;
+	font-family: 'Ostrich Sans';
+	font-size: 20px;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 18px;
+	margin-left: 25%;	
+}
+.logoutbutn {
+	display: block;
+	font-family: 'Ostrich Sans';
+	font-size: 18px;
+	float: right;
+	color: #FFFFFF;
+	margin: 18px;
+}
+.logoutbutn:hover {
+	color: #4F94CD;
+}
+.nav-menu-left {
+	width: 20%;
+	float: left;
+/*	border:solid 1px red;*/
+	margin: 5px;
+}
+.navmenu-title {
+	margin: 2px;
+	padding: 5px;
+	font-family: 'Ostrich Sans';
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #104E8B;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.showMenu {
+/*	display: none;*/
+	margin: 2px;
+	padding: 5px;
+	color: #363636;
+}
+.menucateg-title {
+	margin: 4px;
+	padding: 4px;
+	font-family: 'Ostrich Sans';
+	font-size: 18px;
+	text-align: center;
+	color: #104E8B;
+	background-color: #DCDCDC;
+	border-radius: 2px 2px 0px 0px;
+}
+.smenu {
+	margin: 8px;
+}
+.smenu a {
+	font-family: 'Ostrich Sans';
+	font-size: 16px;
+	text-decoration: none;
+	color: #4F94CD;
+}
+.smenu a:hover {
+	color: #363636;
+	text-decoration: underline;
+}
+.Fprincipal {
+	width: 79%;
+	height: 500px;
+	border: none;
+}
+.principal-Container {
+	width: 95%;
+	margin-top: 8px;
+	margin-left: 2%;
+	padding: 4px;
+}
+.princ-title {
+	font-family: 'Ostrich Sans';
+	font-size: 30px;
+	color: #696969;
+	text-decoration: underline;
+}
+.menu-painel-container {
+	width: 76.5%;
+	margin: 10px auto;
+	padding: 4px;
+	/*border: solid 1px #DCDCDC;*/
+	border-radius: 8px;
+}
+.cpainel {
+	display: block;
+	width: 150px;
+	height: 60px;
+	margin: 5px;
+	float: left;
+	padding: 8px;
+	background-color: #696969;
+	border-radius: 8px;
+}
+.cpainel:hover{background-color: #363636;}
+.cpanieltitle {
+	display: block;
+	font-family: 'Ostrich Sans';
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+.total {margin:8px;font-size: 35px;text-align: center;}
+.msg {background-color: #4876FF}
+.client {background-color: #DAA520;}
+.prod {background-color: #A52A2A;}
+.config {
+	font-family: 'Ostrich Sans';
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #008B45;
+	cursor: pointer;
+}
+.showlist-container {
+	display: none;
+	margin-top: 25px;
+	/*border: solid 1px red;*/
+}
+.table-list {
+	/*border: solid 1px red;*/
+	width: 100%;
+	margin: 5px auto;
+}
+.table-list th {
+	padding: 8px;
+	font-family: 'Ostrich Sans';
+	font-size: 15px;
+	font-weight: bold;
+	color: #104E8B;
+	border-bottom: 1px solid #104E8B;
+}
+.table-list td {
+	padding: 8px;
+	font-family: 'Ostrich Sans';
+	font-size: 16px;
+	color: #4F94CD;
+	border-bottom: 1px solid #DCDCDC;	
+}
+.table-list tr:hover {background-color: #DDD;}
+.img-edit {
+	width: 24px;
+	height: 24px;
+	padding: 2px;
+}

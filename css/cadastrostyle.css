@@ -1,0 +1,82 @@
+/*CADASTRO ADM*/
+.clear {clear: both;}
+.cad-container {
+	border: solid 1px #DCDCDC;
+	width: 95%;
+	height: 480px;
+	margin: 8px auto;
+	border-radius: 4px;
+}
+.cad-title {
+	margin: 10px;
+	padding: 2px;
+	font-family: 'Ostrich Sans';
+	font-size: 25px;
+	color: #696969;
+	text-decoration: underline;
+}
+.cad-container form {
+	width: 98%;
+	margin: auto;
+	/*border: solid 1px red;*/
+	padding: 4px;
+}
+.tipo-users {
+	width: 280px;
+	margin: 3px auto;
+	font-family: 'Ostrich Sans';
+	font-size: 15px;
+}
+.tipo-users h3 {
+	font-weight: bold;
+	color: #104E8B;
+	float: left;
+	margin: 4px;
+}
+.tipo-users select {
+	display: block;
+	float: left;
+	width: 110px;
+	margin: 4px;
+/*	border: none;*/
+	color: #104E8B;
+	cursor: pointer;
+}
+.tipo-users select {outline: none;}
+.form-input-container {
+	/*border: solid 1px red;*/
+	width: 400px;
+	margin: 5px auto;
+}
+.input-style {
+	width: 275px;
+	margin: 2px auto;
+	height: 30px;
+	padding: 2px;
+	border: solid 1px #BEBEBE;
+	border-radius: 2px;
+}
+.input-style:focus {
+	border: solid 1px #4F94CD;
+	outline: none;
+}
+.nome,.data,.login {display: block;margin: 12px auto;}
+.nome, .login {width: 300px;}
+.data{width: 200px;}
+.pass {width: 47.8%;}
+.cad,.res {width: 49.3%;margin-top: 15px;border: none;border-radius: 6px;font-size: 16px;cursor: pointer;}
+.cad {background-color: #104E8B;color: #FFFFFF;}
+.cad:hover {background-color: #4F94CD;}
+.res {background-color: #B22222;color: #FFFFFF;}
+.res:hover {background-color: #A52A2A;}
+.mostra-erro {
+	/*border: solid 1px red;*/
+	width: 180px;
+	margin: 1px auto;
+	font-family: 'Ostrich Sans';
+	font-size: 13px;
+	text-align: center;
+	color: #FF0000;
+}
+.msg {width: 350px;margin: 8px auto;font-family: 'Ostrich Sans';font-size: 25px;}
+.verde{color: #32CD32;}

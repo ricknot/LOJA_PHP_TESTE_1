@@ -1,0 +1,60 @@
+/*HOME*/
+body{background-color: #DCDCDC;}
+
+.home-Container {
+	width: 65%;
+	height: 300px;
+	margin: auto;
+	padding: 8px;
+	background-color: #FFFFFF;
+	border-radius: 0px 0px 8px 8px;
+}
+.homeTitle {
+	color: #363636;
+	font-family: 'Ostrich Sans';
+	font-size: 50px;
+	text-decoration: underline;	
+}
+.login-Container {
+/*	border:solid 1px red;*/
+	width: 50%;
+	margin: 2px auto;
+}
+.input-form {
+	display: block;
+	width: 95%;
+	height: 40px;
+	margin: 5px auto;
+	padding: 5px;
+	border:solid 1px #696969;
+	border-radius: 4px;
+	font-family: 'Tahoma';
+	font-size: 17px;
+}
+.input-butn {
+	display: block;
+	width: 225px;
+	height: 30px;
+	margin: 15px auto;
+	border: none;
+	font-family: 'Ostrich Sans';
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color: #104E8B;
+	border-radius: 8px;
+}
+.input-butn:hover {
+	background-color: #4F94CD;
+	cursor: pointer;
+}
+.recupsenha {
+	display: block;
+	text-align: center;
+	font-family: 'Arial';
+	font-size: 13px;
+	color:#363636;
+}
+.recupsenha:hover {
+	color: #4F94CD;
+	cursor: pointer;
+}
